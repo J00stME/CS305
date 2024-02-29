@@ -1,1 +1,18 @@
-# CS305
+Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+  For my work in this course, I was offered the opportunity to work with a hypothetical business known as Artemis Financial.  They wanted me to ensure that their application was coded securely.  I was given a codebase to        refactor based on the client's specifications and was guided through this process to create a vulnerability assessment for this application.
+What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+  When I came across a known weakness in the codebase, I always made sure to describe it to the best of my ability and cited the issue itself.  Coding securely needs to be the goal at every step of the way.  A financial         institution will most especially want to keep their and their client's information safe and seure.  The less issues there are, the better that company will perform.
+What part of the vulnerability assessment was challenging or helpful to you?
+  At the end of the assessment I was tasked with creating a mitigation plan for the software.  This is likely the most important part of the process, being that it is the actual solution to accompany my previous criticism.
+  Not knowing the scope of this project was difficult.  I am by no means a full stack developer and I was not expected to analyse a complete system.  A rather small part of it was entrusted to me.  I would like to be able to    perform this process professionally someday.
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+  I mainly focused on the weak links of the ssytem.  A good rule to follow is that anywhere that untrusted data is accepted or processed should be treated as a security checkpoint.  The principle of least privilege is a         golden rule in software security- the idea that they will only have access to a system the way YOU want them to is a very good idea.
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+  Following the Vulnerability Assessment Flowchart I addressed any and all key aspects for a secure program.  I would frequently pen-test my own code with different inputs, attempting to trip exceptions.  Adding an error       endpoint was the best way for me to prevent this from happening.  Also, making use of RESTful API in a secure manner was also helpful.
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+  Static and dynamic testing are at the core of the secure programmer I am becoming.  I will never forget how to assess code manually nor the aspects I need to be aware of.  I may not make use of Java or Maven in most of my    future endeavors, but I can certainly translate the ideas to other languages/API's.  There are other dependency check plugins, after all.  NIST CVE is incredible, by the way.  It shows me that people care.
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+  I wish the assignment expected more full-stack knowledge of us.  I would show future employers my vulnerability assessment.  I would also show them my project 2 milestones- cryptography, certificate authorization, and        RESTful development practices.
+
+Thank you for your time
+Alex
